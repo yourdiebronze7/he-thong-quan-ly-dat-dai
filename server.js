@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Hệ thống Quản Lý Đất Đai');
+    res.send('Land Management System');
 });
 
 app.listen(port, () => {
